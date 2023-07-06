@@ -53,7 +53,7 @@ main {
   width: 500px;
   height: auto;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .description-wrapper h1 {
@@ -90,6 +90,7 @@ main {
 }
 
 button {
+  background-color: var(--Dark-cyan);
   padding: 1rem;
   outline: none;
   border: none;
@@ -103,7 +104,15 @@ button {
   gap: 1rem;
 }
 
+button:hover {
+  background-color: var(--Very-dark-blue);
+  cursor: pointer;
+}
+
+button span {
+  height: 25px;
+}
+
 button span img {
-  height: 35px;
-  width: 35px;
+  height: 100%;
 }

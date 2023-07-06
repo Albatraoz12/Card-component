@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Fraunces';
 }
 
 :root {
@@ -60,8 +61,30 @@ main {
   font-size: 2.5rem;
 }
 
+.description-wrapper p {
+  font-size: 1em;
+  line-height: 1.4rem;
+  color: var(--Dark-grayish-blue);
+}
+
 .product-type {
   letter-spacing: 10px;
   text-transform: uppercase;
+  color: var(--Dark-grayish-blue);
+}
+
+.sum-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sum-wrapper strong {
+  font-size: 2.5rem;
+  color: var(--Dark-cyan);
+}
+
+.sum-wrapper del {
+  font-size: 1.2rem;
   color: var(--Dark-grayish-blue);
 }
